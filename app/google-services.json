@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "450197353003",
+    "project_id": "uberapp-9584f",
+    "storage_bucket": "uberapp-9584f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450197353003:android:595bdbe3cd9b57e71b706e",
+        "android_client_info": {
+          "package_name": "com.simcoder.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450197353003-mehhoqfl2rir4supeleu4m2eq6h4vjvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simcoder.uber",
+            "certificate_hash": "430aee9cf4fa7233dbb6b9dfea408d7bb4d06c6b"
+          }
+        },
+        {
+          "client_id": "450197353003-r2qbp58nkdca1ps9t6hb3mtc296trbv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF208MTya92_GZ1R-pWDpIkUbkjUQ0EOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450197353003-r2qbp58nkdca1ps9t6hb3mtc296trbv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

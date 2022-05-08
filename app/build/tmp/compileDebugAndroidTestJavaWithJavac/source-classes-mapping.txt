@@ -1,0 +1,2 @@
+com/simcoder/uber/test/BuildConfig.java
+ com.simcoder.uber.test.BuildConfig
