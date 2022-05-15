@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:450197353003:android:595bdbe3cd9b57e71b706e",
         "android_client_info": {
-          "package_name": "com.simcoder.uber"
+          "package_name": "com.claudia.uber"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "450197353003-mehhoqfl2rir4supeleu4m2eq6h4vjvd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.simcoder.uber",
+            "package_name": "com.claudia.uber",
             "certificate_hash": "430aee9cf4fa7233dbb6b9dfea408d7bb4d06c6b"
           }
         },
