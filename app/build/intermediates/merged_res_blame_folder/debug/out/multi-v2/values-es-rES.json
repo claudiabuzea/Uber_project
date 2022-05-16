@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "outputFile": "C:\\Users\\ebuziul\\Desktop\\BestVersion\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\f2a60627cdf9b00aba9762b3642a8286\\jetified-stripe-3ds2-android-4.1.2\\res\\values-es-rES\\values-es-rES.xml",

@@ -12,7 +12,7 @@ android {
         applicationId "com.claudia.uber"
         minSdkVersion 21
         //noinspection OldTargetApi
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         versionName "2.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

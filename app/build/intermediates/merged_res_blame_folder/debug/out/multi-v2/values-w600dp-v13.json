@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "outputFile": "C:\\Users\\ebuziul\\Desktop\\BestVersion\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\1bfd6bfcb01282502a03d54bd7f536f0\\jetified-pingplacepicker-1.1.2\\res\\values-w600dp-v13\\values-w600dp-v13.xml",

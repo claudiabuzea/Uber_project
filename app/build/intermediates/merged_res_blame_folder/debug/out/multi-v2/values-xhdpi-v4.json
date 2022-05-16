@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "outputFile": "C:\\Users\\ebuziul\\Desktop\\BestVersion\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\143e86856e43e0f2d22c0ec1ea01e1bf\\jetified-stripe-android-16.1.1\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",

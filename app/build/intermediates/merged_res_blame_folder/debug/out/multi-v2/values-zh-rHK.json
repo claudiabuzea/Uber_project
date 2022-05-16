@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\ebuziul\\Desktop\\BestVersion\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\cda5244367b0d34194bce331b86f8e0a\\jetified-play-services-basement-17.5.0\\res\\values-zh-rHK\\values.xml",

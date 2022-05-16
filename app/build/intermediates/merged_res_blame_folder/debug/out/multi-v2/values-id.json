@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "C:\\Users\\ebuziul\\Desktop\\BestVersion\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\5afc4f4d8c361b88554e9e29bcd89412\\jetified-facebook-common-8.1.0\\res\\values-id\\values-id.xml",

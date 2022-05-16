@@ -1,4 +1,4 @@
-com.simcoder.uber
+com.claudia.uber
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3121,6 +3121,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_circle
 drawable ic_amex
+drawable ic_android_black_24dp
 drawable ic_arrow
 drawable ic_arrow_forward_black_24dp
 drawable ic_attach_money_black_24dp

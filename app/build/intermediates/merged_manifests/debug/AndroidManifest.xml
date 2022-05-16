@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simcoder.uber"
+    package="com.claudia.uber"
     android:versionCode="1"
     android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -36,10 +36,10 @@
         <package android:name="com.google.android.apps.maps" />
     </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.simcoder.uber.permission.C2D_MESSAGE"
+        android:name="com.claudia.uber.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.simcoder.uber.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.claudia.uber.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!--
@@ -78,9 +78,8 @@
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_android_black_24dp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
@@ -97,11 +96,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
+        <activity android:name="com.claudia.uber.Driver.DriverChooseTypeActivity" />
+        <activity android:name="com.claudia.uber.Payment.PaymentActivity" />
+        <activity android:name="com.claudia.uber.Payment.PayoutActivity" />
+        <activity android:name="com.claudia.uber.Payment.AddPaymentActivity" />
+        <activity android:name="com.claudia.uber.Login.DetailsActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -109,7 +108,7 @@
         <uses-library android:name="com.google.android.maps" />
 
         <activity
-            android:name="com.simcoder.uber.Login.LauncherActivity"
+            android:name="com.claudia.uber.Login.LauncherActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -118,29 +117,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.simcoder.uber.Login.AuthenticationActivity"
+            android:name="com.claudia.uber.Login.AuthenticationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
+            android:name="com.claudia.uber.Customer.CustomerMapActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
+            android:name="com.claudia.uber.Customer.CustomerSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
+            android:name="com.claudia.uber.Driver.DriverSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistoryActivity"
+            android:name="com.claudia.uber.History.HistoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistorySingleActivity"
+            android:name="com.claudia.uber.History.HistorySingleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverMapActivity"
+            android:name="com.claudia.uber.Driver.DriverMapActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
+        <service android:name="com.claudia.uber.Utils.onAppKilled" />
 
         <activity
             android:name="com.stripe.android.view.AddPaymentMethodActivity"
@@ -207,7 +206,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cct.com.simcoder.uber"
+                    android:host="cct.com.claudia.uber"
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
@@ -293,7 +292,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.simcoder.uber" />
+                <category android:name="com.claudia.uber" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -380,7 +379,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.simcoder.uber.com.squareup.picasso"
+            android:authorities="com.claudia.uber.com.squareup.picasso"
             android:exported="false" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
@@ -421,7 +420,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.simcoder.uber.firebaseinitprovider"
+            android:authorities="com.claudia.uber.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -436,7 +435,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.simcoder.uber.FacebookInitProvider"
+            android:authorities="com.claudia.uber.FacebookInitProvider"
             android:exported="false" />
 
         <receiver
@@ -449,7 +448,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.simcoder.uber.lifecycle-process"
+            android:authorities="com.claudia.uber.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
 
