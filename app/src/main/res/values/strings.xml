@@ -1,5 +1,5 @@
 <resources>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB5vIBhYHko0Ns756NqISgOjLmnF8vH2Qw</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA3E6I4imJoNmZRioslWf4OD7LGWsMaicM</string>
     <string name="firebase_functions_base_url" templateMergeStrategy="preserve" translatable="false">https://firebase_functions_base_url/</string>
     <string name="publishablekey" templateMergeStrategy="preserve" translatable="false">stripe_pk_key</string>
     <string name="stripe_client_key" templateMergeStrategy="preserve" translatable="false">stripe_sk_key</string>

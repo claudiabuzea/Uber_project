@@ -340,7 +340,7 @@ public class CustomerMapActivity extends AppCompatActivity
         }, TIMEOUT_MILLISECONDS);
 
         bringBottomSheetDown();
-        if (!requestBol) {
+        if (!requestBol && routeData != null) {
             mCurrentRide.setDestination(destinationLocation);
             mCurrentRide.setPickup(pickupLocation);
             mCurrentRide.setRequestService(mAdapter.getSelectedItem().getId());
@@ -358,6 +358,8 @@ public class CustomerMapActivity extends AppCompatActivity
             mCurrentRide.postRideInfo();
 
             requestListener();
+        } else {
+            Toast.makeText(this, "Route not possible", Toast.LENGTH_LONG).show();
         }
     }
 
