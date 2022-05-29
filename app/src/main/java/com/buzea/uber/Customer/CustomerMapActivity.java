@@ -1237,6 +1237,7 @@ public class CustomerMapActivity extends AppCompatActivity
 
                 routeData = parseJson(obj);
 
+                mAdapter.setLocation(pickupLocation);
                 mAdapter.setData(routeData);
                 mAdapter.notifyDataSetChanged();
 
