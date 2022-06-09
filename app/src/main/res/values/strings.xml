@@ -246,8 +246,8 @@
   </string>
     <string name="to">De la…</string>
     <string name="from">Catre…</string>
-    <string name="no_phone_call_permissions">You didn\'t give phone call permissions</string>
-    <string name="driver_no_phone">Driver doesn\'t have a connected number</string>
+    <string name="no_phone_call_permissions">Permisiunile pentru utilizarea telefonului nu au fost acordate</string>
+    <string name="driver_no_phone">Soferul nu dispune de un numar de telefon</string>
     <string name="your_trips">Cursele tale</string>
     <string name="waiting_for_location">Se asteapta locatia</string>
     <string name="save">salveaza</string>
@@ -259,20 +259,20 @@
     <string name="ride_in_progress">Cursa in derulare</string>
     <string name="payout_amount">0 €</string>
     <string name="no_default_payment">Metoda de plata implicita nu a fost configurata</string>
-    <string name="no_payment_available_message">you have to setup a payment card before asking for a driver.</string>
-    <string name="wait_send_payout">Please wait while we send you the payout</string>
-    <string name="payout_issued">Payout Issued</string>
-    <string name="license">license</string>
+    <string name="no_payment_available_message">metoda de plata invalida</string>
+    <string name="wait_send_payout">Va rugam asteptati procesarea platii</string>
+    <string name="payout_issued">Eroare procesare plata</string>
+    <string name="license">licenta</string>
     <string name="no_rides_to_show">0 curse disponibile</string>
     <string name="type">Tip</string>
     <string name="service">Service</string>
     <string name="how_was_your_ride">Cum a fost cursa?</string>
     <string name="money_type"> €</string>
     <string name="double_dash">--</string>
-    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">There doesn\'t seem to be a driver near you, you can cancel or keep searching.</string>
-    <string name="available_for_payout">Available for payout:</string>
+    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">Nu exista soferi disponibili in apropiere.</string>
+    <string name="available_for_payout">De plata:</string>
     <string name="enter_your_email">Email</string>
-    <string name="i_authorise_stripe_samples_to_send_instructions_to_the_financial_institution_that_issued_my_card_to_take_payments_from_my_card_account_in_accordance_with_the_terms_of_my_agreement_with_you">I authorise Stripe Samples to send instructions to the financial institution that issued my card to take payments from my card account in accordance with the terms of my agreement with you.</string>
+    <string name="i_authorise_stripe_samples_to_send_instructions_to_the_financial_institution_that_issued_my_card_to_take_payments_from_my_card_account_in_accordance_with_the_terms_of_my_agreement_with_you"></string>
     <string name="make_default">Salveaza ca implicit</string>
     <string name="delete">Sterge</string>
     <string name="_1923_1239_8123_9138">1923 1239 8123 9138</string>
@@ -280,7 +280,7 @@
     <string name="_05_22">05/22</string>
     <string name="name_last_name">Nume Prenume</string>
     <string name="rideid">rideId</string>
-    <string name="_120">120 €</string>
+    <string name="_120">120 RON</string>
     <string name="_10_03_2010">10 / 03 / 2010</string>
     <string name="title_activity_maps">Harta</string>
 
