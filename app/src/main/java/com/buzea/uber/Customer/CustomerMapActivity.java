@@ -1390,9 +1390,6 @@ public class CustomerMapActivity extends AppCompatActivity
         } else if (id == R.id.settings) {
             Intent intent = new Intent(CustomerMapActivity.this, CustomerSettingsActivity.class);
             startActivity(intent);
-        } else if (id == R.id.payment) {
-            Intent intent = new Intent(CustomerMapActivity.this, PaymentActivity.class);
-            startActivity(intent);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

@@ -6,13 +6,19 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="100sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginEnd="100sp"
+        android:layout_marginBottom="100sp"
         android:gravity="center"
         android:orientation="vertical"
-        android:src="@mipmap/ic_launcher"></ImageView>
+        android:src="@mipmap/ic_launcher"
+        android:text="@string/taxi_app"
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
 
     <com.google.android.gms.common.SignInButton

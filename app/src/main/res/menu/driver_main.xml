@@ -12,10 +12,6 @@
             android:id="@+id/settings"
             android:title="@string/settings"
             android:tooltipText="Change Account Settings"/>
-        <item
-            android:id="@+id/payout"
-            android:title="@string/payout"
-            android:tooltipText="Issue payout"/>
     </group>
 
 </menu>
