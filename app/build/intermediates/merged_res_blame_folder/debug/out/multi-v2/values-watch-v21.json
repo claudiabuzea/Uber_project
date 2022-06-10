@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ebuziul\\StudioProjects\\UberClone2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\dani1\\Projects\\Uber_project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ebuziul\\.gradle\\caches\\transforms-2\\files-2.1\\1442aac96b640b6726b928a91e875132\\appcompat-1.3.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\dani1\\.gradle\\caches\\transforms-2\\files-2.1\\1442aac96b640b6726b928a91e875132\\appcompat-1.3.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

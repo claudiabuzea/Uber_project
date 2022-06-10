@@ -80,9 +80,8 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
 
         <!--
@@ -97,11 +96,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
+        <activity android:name="com.buzea.uber.Driver.DriverChooseTypeActivity" />
+        <activity android:name="com.buzea.uber.Payment.PaymentActivity" />
+        <activity android:name="com.buzea.uber.Payment.PayoutActivity" />
+        <activity android:name="com.buzea.uber.Payment.AddPaymentActivity" />
+        <activity android:name="com.buzea.uber.Login.DetailsActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -109,7 +108,7 @@
         <uses-library android:name="com.google.android.maps" />
 
         <activity
-            android:name="com.simcoder.uber.Login.LauncherActivity"
+            android:name="com.buzea.uber.Login.LauncherActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -118,29 +117,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.simcoder.uber.Login.AuthenticationActivity"
+            android:name="com.buzea.uber.Login.AuthenticationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerMapActivity"
+            android:name="com.buzea.uber.Customer.CustomerMapActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Customer.CustomerSettingsActivity"
+            android:name="com.buzea.uber.Customer.CustomerSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverSettingsActivity"
+            android:name="com.buzea.uber.Driver.DriverSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistoryActivity"
+            android:name="com.buzea.uber.History.HistoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.History.HistorySingleActivity"
+            android:name="com.buzea.uber.History.HistorySingleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.simcoder.uber.Driver.DriverMapActivity"
+            android:name="com.buzea.uber.Driver.DriverMapActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="com.simcoder.uber.Utils.onAppKilled" />
+        <service android:name="com.buzea.uber.Utils.onAppKilled" />
 
         <activity
             android:name="com.stripe.android.view.AddPaymentMethodActivity"

@@ -1,4 +1,4 @@
-com.simcoder.uber
+com.buzea.uber
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3709,6 +3709,7 @@ id et_phone_number_aaw
 id et_postal_code
 id et_postal_code_aaw
 id et_state_aaw
+id eta
 id exitUntilCollapsed
 id expand_activities_button
 id expand_arrow
@@ -3929,7 +3930,6 @@ id password_toggle
 id path
 id pathRelative
 id payButton
-id payment
 id payment_system_image
 id payout
 id payout_amount
@@ -4872,6 +4872,7 @@ string stripe_paymentsheet_pay_button_processing
 string stripe_paymentsheet_pay_using
 string stripe_paymentsheet_save_this_card
 string style_json
+string taxi_app
 string there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching
 string title_activity_maps
 string title_add_a_card
@@ -4883,8 +4884,6 @@ string to
 string type
 string type_1
 string type_2
-string type_3
-string type_4
 string wait_send_payout
 string waiting_for_location
 string wallet_buy_button_place_holder

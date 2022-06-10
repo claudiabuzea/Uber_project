@@ -496,7 +496,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#00BCD4</color>
+    <color name="colorAccent">#00D415</color>
     <color name="colorAccentDark">#007285</color>
     <color name="colorBackground">#EEEEEE</color>
     <color name="colorBackgroundLight">@color/material_white</color>
@@ -571,7 +571,7 @@
     <color name="grey">#707070</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="ic_launcher_background">#131313</color>
+    <color name="ic_launcher_background">#FFF</color>
     <color name="lightGrey">#C2C2C2</color>
     <color name="lighterGrey">#ECECEC</color>
     <color name="material_amber100">#ffffecb3</color>
@@ -2292,7 +2292,7 @@
   </plurals>
     <string name="_05_22">05/22</string>
     <string name="_10_03_2010">10 / 03 / 2010</string>
-    <string name="_120">120 €</string>
+    <string name="_120">120 RON</string>
     <string name="_1923_1239_8123_9138">1923 1239 8123 9138</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -2328,8 +2328,8 @@
     <string name="acc_label_expiry_date_node">%s, Expiration date</string>
     <string name="acc_label_zip">ZIP Code</string>
     <string name="acc_label_zip_short">ZIP</string>
-    <string name="action_settings">Settings</string>
-    <string name="add_card">Add Card</string>
+    <string name="action_settings">Setari</string>
+    <string name="add_card">Adauga card</string>
     <string name="added" ns2:ignore="MissingTranslation">Added %s</string>
     <string name="address_city_required">Please enter your city</string>
     <string name="address_country_invalid" ns2:ignore="MissingTranslation">Your country is invalid</string>
@@ -2376,10 +2376,10 @@
     <string name="address_state_required">Please enter your state</string>
     <string name="address_zip_invalid">Your ZIP code is invalid.</string>
     <string name="address_zip_postal_invalid">Your ZIP/Postal code is invalid</string>
-    <string name="app_name">Uber Clone</string>
+    <string name="app_name">Taxi App</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="available_for_payout">Available for payout:</string>
-    <string name="balance">Balance</string>
+    <string name="available_for_payout">De plata:</string>
+    <string name="balance">Balanta</string>
     <string name="becs_mandate_acceptance" ns2:ignore="MissingTranslation">
     By providing your bank account details and confirming this payment, you agree to this
     Direct Debit Request and the
@@ -2403,8 +2403,8 @@
     <string name="becs_widget_name_required" ns2:ignore="MissingTranslation">Your name is required.</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
-    <string name="call_uber">Call Car</string>
-    <string name="car">Car</string>
+    <string name="call_uber">Suna sofer</string>
+    <string name="car">Masina</string>
     <string name="card_ending_in" ns2:ignore="MissingTranslation">%1$s ending in %2$s</string>
     <string name="card_number_hint">1234 1234 1234 1234</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
@@ -2455,29 +2455,29 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="confirm">Confirm</string>
-    <string name="current_location">Current Location</string>
-    <string name="customer">Customer</string>
+    <string name="current_location">Locatia curenta</string>
+    <string name="customer">Client</string>
     <string name="cvc_amex_hint">CVV</string>
     <string name="cvc_multiline_helper">123</string>
     <string name="cvc_multiline_helper_amex">1234</string>
     <string name="cvc_number_hint">CVC</string>
-    <string name="date">Date</string>
+    <string name="date">Data</string>
     <string name="default_web_client_id" translatable="false">450197353003-r2qbp58nkdca1ps9t6hb3mtc296trbv6.apps.googleusercontent.com</string>
-    <string name="delete">Delete</string>
+    <string name="delete">Sterge</string>
     <string name="delete_payment_method" ns2:ignore="MissingTranslation">Delete payment method</string>
     <string name="delete_payment_method_prompt_title" ns2:ignore="MissingTranslation">Delete payment method?</string>
     <string name="description_place_image">A photo of the selected place</string>
     <string name="description_place_map">A map of the selected place</string>
-    <string name="destination">Destination</string>
-    <string name="distance">Distance</string>
+    <string name="destination">Destinatie</string>
+    <string name="distance">Distanta</string>
     <string name="double_dash">--</string>
-    <string name="drive_complete">Drive Completed</string>
-    <string name="driver">Driver</string>
-    <string name="driver_found">Driver Found</string>
-    <string name="driver_here">Driver Here</string>
-    <string name="driver_no_phone">Driver doesn\'t have a connected number</string>
+    <string name="drive_complete">Cursa finalizata!</string>
+    <string name="driver">Sofer</string>
+    <string name="driver_found">A fost gasit un sofer!</string>
+    <string name="driver_here">Soferul a sosit!</string>
+    <string name="driver_no_phone">Soferul nu dispune de un numar de telefon</string>
     <string name="email">Email</string>
-    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_email">Email</string>
     <string name="error_icon_content_description">Error</string>
     <string name="expiry_date_hint">MM/YY</string>
     <string name="expiry_label_short">Expiry</string>
@@ -2487,23 +2487,23 @@
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_functions_base_url" templateMergeStrategy="preserve" translatable="false">https://firebase_functions_base_url/</string>
     <string name="firebase_hosting_url" templateMergeStrategy="preserve" translatable="false">https://firebase_hosting_url/</string>
-    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password">Ai uitat parola?</string>
     <string name="fpx_bank_offline" ns2:ignore="MissingTranslation">%s - Offline</string>
-    <string name="from">From…</string>
-    <string name="from_to">From - To</string>
+    <string name="from">De la</string>
+    <string name="from_to">De la - Catre</string>
     <string name="gcm_defaultSenderId" translatable="false">450197353003</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="getting_driver">Getting Your Driver ....</string>
+    <string name="getting_driver">Se cauta sofer ....</string>
     <string name="google_api_key" translatable="false">AIzaSyBF208MTya92_GZ1R-pWDpIkUbkjUQ0EOY</string>
     <string name="google_app_id" translatable="false">1:450197353003:android:595bdbe3cd9b57e71b706e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBF208MTya92_GZ1R-pWDpIkUbkjUQ0EOY</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB5vIBhYHko0Ns756NqISgOjLmnF8vH2Qw</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA3E6I4imJoNmZRioslWf4OD7LGWsMaicM</string>
     <string name="google_pay" ns2:ignore="MissingTranslation">Google Pay</string>
     <string name="google_storage_bucket" translatable="false">uberapp-9584f.appspot.com</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
-    <string name="history">History</string>
-    <string name="how_was_your_ride">How was your ride?</string>
-    <string name="i_authorise_stripe_samples_to_send_instructions_to_the_financial_institution_that_issued_my_card_to_take_payments_from_my_card_account_in_accordance_with_the_terms_of_my_agreement_with_you">I authorise Stripe Samples to send instructions to the financial institution that issued my card to take payments from my card account in accordance with the terms of my agreement with you.</string>
+    <string name="history">Istoric</string>
+    <string name="how_was_your_ride">Cum a fost cursa?</string>
+    <string name="i_authorise_stripe_samples_to_send_instructions_to_the_financial_institution_that_issued_my_card_to_take_payments_from_my_card_account_in_accordance_with_the_terms_of_my_agreement_with_you"/>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="invalid_card_number">Your card\'s number is invalid.</string>
     <string name="invalid_cvc">Your card\'s security code is invalid.</string>
@@ -2512,15 +2512,15 @@
     <string name="invalid_shipping_information">Invalid Shipping Address</string>
     <string name="invalid_zip">Your postal code is incomplete.</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="license">license</string>
+    <string name="license">licenta</string>
     <string name="location_not_available_message">Looks like this app doesn\'t have location services configured. Please see OneSignal docs for more information.</string>
     <string name="location_not_available_open_settings_message">You have previously denied sharing your device location. Please go to settings to enable.</string>
     <string name="location_not_available_open_settings_option">Settings</string>
     <string name="location_not_available_title">Location Not Available</string>
     <string name="log_in">Login</string>
-    <string name="logout">Logout</string>
-    <string name="looking_driver">Looking For Your Driver…</string>
-    <string name="make_default">Make Default</string>
+    <string name="logout">Deconectare</string>
+    <string name="looking_driver">Se cauta sofer…</string>
+    <string name="make_default">Salveaza ca implicit</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
     <string description="Description for button to switch to select the hour [CHAR_LIMIT=NONE]" name="material_hour_selection">Select hour</string>
@@ -2537,7 +2537,7 @@
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="money_type"> €</string>
-    <string name="month_year">Month/Year</string>
+    <string name="month_year">Luna/An</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string description="Content description for a close icon that lets the user remove content from the screen" name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string description="Plural form content description for when the number of new notifications exceeds a maximum count[CHAR_LIMIT=NONE]" name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">More than <ns1:g example="999" id="maximum number">%1$d</ns1:g> new notifications</string>
@@ -2573,36 +2573,36 @@
     <string description="a11y string to indicate this button switches the user to choosing a day [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
     <string description="a11y string to indicate this button changes the input mode to a text field [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string description="a11y string to indicate this button switches the user to choosing a year [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
-    <string name="name">Name </string>
-    <string name="name_last_name">Name Last Name</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="no_default_payment">No default payment available</string>
-    <string name="no_driver_found">Unfortunately, No drivers were found around you.</string>
-    <string name="no_drivers_around">No drivers around</string>
-    <string name="no_payment_available_message">you have to setup a payment card before asking for a driver.</string>
+    <string name="name">Nume </string>
+    <string name="name_last_name">Nume Prenume</string>
+    <string name="navigation_drawer_close">Ascunde detaliile</string>
+    <string name="navigation_drawer_open">Arata detalii</string>
+    <string name="no_default_payment">Metoda de plata implicita nu a fost configurata</string>
+    <string name="no_driver_found">Din pacate, nu am gasit soferi in apropiere de tine.</string>
+    <string name="no_drivers_around">Nu am gasit soferi</string>
+    <string name="no_payment_available_message">metoda de plata invalida</string>
     <string name="no_payment_methods">No payment methods.</string>
-    <string name="no_phone_call_permissions">You didn\'t give phone call permissions</string>
-    <string name="no_rides_to_show">No Rides to show</string>
-    <string name="not_approved">Your Account Has Not Been Approved</string>
-    <string name="password">Password</string>
+    <string name="no_phone_call_permissions">Permisiunile pentru utilizarea telefonului nu au fost acordate</string>
+    <string name="no_rides_to_show">0 curse disponibile</string>
+    <string name="not_approved">Contul tau inca nu a fost validat</string>
+    <string name="password">Parola</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="payment">payment</string>
+    <string name="payment">plata</string>
     <string name="payment_method_add_new_card">Add new card…</string>
     <string name="payment_method_add_new_fpx" ns2:ignore="MissingTranslation">Select Bank Account (FPX)…</string>
     <string name="paymentsheet_payment_method_item_card_number" translatable="false">····%1$s</string>
     <string name="payout">Payout</string>
     <string name="payout_amount">0 €</string>
-    <string name="payout_issued">Payout Issued</string>
+    <string name="payout_issued">Eroare procesare plata</string>
     <string name="permission_fine_location_message">We only need your location to help you find relevant nearby places.</string>
     <string name="permission_fine_location_title">Location Permission</string>
-    <string name="phone">Phone</string>
-    <string name="phone_driver">Phone</string>
-    <string name="picked_customer">Picked customer</string>
+    <string name="phone">Telefon</string>
+    <string name="phone_driver">Telefon</string>
+    <string name="picked_customer">Client</string>
     <string name="picker_load_places_error">"Couldn't load nearby places…"</string>
     <string name="picker_load_this_place_error">"Couldn't find the selected place…"</string>
     <string name="picker_location_unavailable">Location is unavailable</string>
@@ -2624,15 +2624,15 @@
     <string name="price_free">Free</string>
     <string name="project_id" translatable="false">uberapp-9584f</string>
     <string name="publishablekey" templateMergeStrategy="preserve" translatable="false">stripe_pk_key</string>
-    <string name="register">Register</string>
+    <string name="register">Inregistrare</string>
     <string name="removed" ns2:ignore="MissingTranslation">Removed %s</string>
-    <string name="ride_in_progress">Ride In Progress</string>
+    <string name="ride_in_progress">Cursa in derulare</string>
     <string name="rideid">rideId</string>
-    <string name="save">save</string>
+    <string name="save">salveaza</string>
     <string name="search_menu_title">Search</string>
     <string name="secure_checkout">Secure Checkout</string>
     <string name="service">Service</string>
-    <string name="settings">Settings</string>
+    <string name="settings">Setari</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stripe_3ds2_brand_amex">American Express</string>
     <string name="stripe_3ds2_brand_discover">Discover</string>
@@ -2859,24 +2859,23 @@
     }
 ]
   </string>
-    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">There doesn\'t seem to be a driver near you, you can cancel or keep searching.</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="taxi_app">Taxi App</string>
+    <string name="there_doesn_t_seem_to_be_a_driver_near_you_you_can_cancel_or_keep_searching">Nu exista soferi disponibili in apropiere.</string>
+    <string name="title_activity_maps">Harta</string>
     <string name="title_add_a_card">Add a Card</string>
     <string name="title_add_an_address">Add an Address</string>
     <string name="title_bank_account" ns2:ignore="MissingTranslation">Bank Account</string>
     <string name="title_payment_method">Payment Method</string>
     <string name="title_select_shipping_method">Select Shipping Method</string>
-    <string name="to">To…</string>
-    <string name="type">Type</string>
-    <string name="type_1">Car</string>
+    <string name="to">Catre</string>
+    <string name="type">Tip</string>
+    <string name="type_1">Masina</string>
     <string name="type_2">Van</string>
-    <string name="type_3">SUV</string>
-    <string name="type_4">Bike</string>
-    <string name="wait_send_payout">Please wait while we send you the payout</string>
-    <string name="waiting_for_location">Waiting for Location</string>
+    <string name="wait_send_payout">Va rugam asteptati procesarea platii</string>
+    <string name="waiting_for_location">Se asteapta locatia</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
-    <string name="working">Working</string>
-    <string name="your_trips">Your Trips</string>
+    <string name="working"/>
+    <string name="your_trips">Cursele tale</string>
     <string name="zip_helper">12345</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
